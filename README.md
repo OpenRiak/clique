@@ -1,4 +1,4 @@
-[![Erlang CI Actions Status](https://github.com/basho/clique/workflows/Erlang%20CI/badge.svg)](https://github.com/basho/clique/actions)
+![Clique OpenRiak Status](https://github.com/OpenRiak/clique/actions/workflows/erlang.yml/badge.svg?branch=openriak-3.2)
 
 # Introduction
 Clique is an opinionated framework for building command line interfaces in
