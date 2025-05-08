@@ -28,11 +28,11 @@
 -include("clique_status_types.hrl").
 
 -define(MAX_LINE_LEN, 100).
--define(else, true).
+-define(ELSE_COMPAT, true).
 -define(MINWIDTH(W),
         if W =< 0 ->
                 1;
-           ?else ->
+           ?ELSE_COMPAT ->
                 W
         end).
 
