@@ -56,7 +56,7 @@ teardown() ->
 
 %% @doc Register usage for a given command sequence. Lookups are by longest
 %% match.
--spec register([string()], usage()) -> true.
+-spec register([string()|'*'], usage()) -> true.
 register(Cmd, Usage) ->
     ets:insert(?usage_table, {Cmd, Usage}).
 
